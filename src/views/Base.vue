@@ -1,0 +1,42 @@
+<script>
+  // 2020年2月29日 新添加地址
+  const BASE_URL = 'http://manager.123souke.com'; // 设置全局 URL
+  const BASE_IMAGE_URL = 'http://manager.123souke.com'; // 设置全局 URL
+  const BASE_DOWNLOAD_URL = 'http://manager.123souke.com'
+  // //吴军本地
+  // const BASE_URL = 'http://192.168.1.46:8080';
+  // const BASE_IMAGE_URL = 'http://192.168.1.46:8080';
+  // const BASE_DOWNLOAD_URL = 'http://192.168.1.46:8080';
+
+  //张雨杰本地
+  // const BASE_URL = 'http://192.168.1.5:8080';
+  // const BASE_IMAGE_URL = 'http://192.168.1.5:8080';
+  // const BASE_DOWNLOAD_URL = 'http://192.168.1.5:8080';
+
+  //闫剑豪
+  // const BASE_URL = 'http://192.168.1.39:8080';
+  // const BASE_IMAGE_URL = 'http://192.168.1.39:8080';
+  // const BASE_DOWNLOAD_URL = 'http://192.168.1.39:8080';
+
+  //服务器
+  // const BASE_URL = 'http://youcaimanager.byqckj.com';
+  // const BASE_IMAGE_URL = 'http://youcaimanager.byqckj.com';
+  // const BASE_DOWNLOAD_URL = 'http://youcai.byqckj.com';
+
+  //客户服务器
+  // const BASE_URL = 'http://ycaimanager.byqckj.com';
+  // const BASE_IMAGE_URL = 'http://ycaimanager.byqckj.com';
+  // const BASE_DOWNLOAD_URL = 'http://ycaimanager.byqckj.com';
+
+
+//   const BASE_URL = 'http://ycaimanager.byqckj.com';
+//   const BASE_IMAGE_URL = 'http://ycaimanager.byqckj.com';
+//   const BASE_DOWNLOAD_URL = 'http://ycaimanager.byqckj.com';
+
+  export default {
+    BASE_URL,
+    BASE_IMAGE_URL,
+    BASE_DOWNLOAD_URL
+  }
+</script>
+

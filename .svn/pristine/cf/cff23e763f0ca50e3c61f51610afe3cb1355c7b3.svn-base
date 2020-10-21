@@ -1,0 +1,66 @@
+{
+  "_from": "vue-aliplayer",
+  "_id": "vue-aliplayer@0.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-+D740uwOpGh5SAw4pQss3ejRWCSTzZDsQtq97CT3RR7RI6nLKfoGlUalRCYCbL5mPqhOGqzd3NIbmj/7osBhmw==",
+  "_location": "/vue-aliplayer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-aliplayer",
+    "name": "vue-aliplayer",
+    "escapedName": "vue-aliplayer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-aliplayer/-/vue-aliplayer-0.0.8.tgz",
+  "_shasum": "d6fe5ea7a4caaad072ac26882cf59cd72216bdc0",
+  "_spec": "vue-aliplayer",
+  "_where": "F:\\视频课程\\course",
+  "author": {
+    "name": "linfeng",
+    "url": "237242115@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/slacrey/vue-aliplayer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "vue-github-badge": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "A Vue 2.x video player component based on AliPlayer",
+  "devDependencies": {
+    "vbuild": "^6.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/slacrey/vue-aliplayer#readme",
+  "keywords": [
+    "vue",
+    "aliplayer"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-aliplayer.js",
+  "name": "vue-aliplayer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slacrey/vue-aliplayer.git"
+  },
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:umd",
+    "build:cjs": "vbuild -c vbuild.build.js --format cjs",
+    "build:dev": "vbuild -c vbuild.dev.js",
+    "build:umd": "vbuild -c vbuild.build.js --format umd",
+    "dev": "vbuild -c vbuild.dev.js -d",
+    "test": "echo test"
+  },
+  "version": "0.0.8"
+}
